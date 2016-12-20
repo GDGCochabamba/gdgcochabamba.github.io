@@ -1,14 +1,15 @@
 # Site settings
-title: GDG Cochabamba
+title: GDG/WTM Cochabamba Blog
 email: cochabamba@gdg.com.bo
 description: > # this means to ignore newlines until "baseurl:"
   Blog creado por Google Developers Group y Women Techmakers Cochabamba
   para compartir conocimientos sobre desarrollo, tecnología y eventos de
   nuestra ciudad
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://juliosguz.github.io" # the base hostname & protocol for your site
+url: "http://blog.gdg.com.bo" # the base hostname & protocol for your site
 twitter_username: GDGCochabamba
 github_username:  GDGCochabamba
+mainImage: "https://lh3.googleusercontent.com/sEgpYVBTKyx_ZYGLYsMoQHOwMG2BYOxH7DddU89yRGiZZH3R5gi8y_9v0VeGPtcLr0DjddHzZNaQeJQf75agbWf8Arl_MNs2Gk1uY0sAun5ttvAHyM-YmjwFPm18pxVwNPgpRIyD8enN5twc8S25WddjBUYJX1TBN1dv-PWtL45KPrr6KLrzRi-BpqwmCDz_Cwe2YyihPjWhFIhbdDzEVxJK1CFGlAnMYorGK3dchjvdHQJvbaZBEex6tVxhcU8sgGJDLzPinCV97k7DTkViw48jYhUAJnVC7IOEnWu9nKnRyoH4kGPmPRBdw7GEGkjUX4WBKx9126TU5DXrHwsc8jkkSpEp9MSX_Ajh7HIKdSQ4zxCoL5av3NxDqnvvWZBv4tAMgEJq49at6t6XaUCDY1jbZSfq9urjCgKaWkII8PrAeiKnJ9Th7fwkVoiqIJa--F3eM1746p6tiiCCAwd9P1Zth5VqC1ekBgTE_VXHAcKa8_cJRCuOZJuYqfF2HrtTeHj4CN5yIVuzSUYwmjUMAUoEW3rsFaU2cQm9ibBXKA91eu6SnUGXLogA1R8wjw3vrWAnLalzFpEXg0HFtdLAv0vXD5Uh9es_yKFogTKUwppXtkrGjyX0S6pwAmcX4QnpczxcmAe3MOVN0EHGLWd86jCNzz2D3H73pNhWVLzjBA=w1776-h1184-no"
 
 # Build settings
 markdown: kramdown

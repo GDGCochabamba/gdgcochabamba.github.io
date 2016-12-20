@@ -3,10 +3,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% assign pageTitle = site.title | escape %}
+  {% assign pageDescription = site.description %}
+  {% assign pageType = 'website' %}
+  {% assign pageImage = site.mainImage %}
+  {% assign pageUrl = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+  {% if page.title %}
+    {% assign pageTitle = page.title | escape %}
+    {% assign pageType = "article" %}
+  {% endif %}
+
+  {% if page.excerpt %}
+    {% assign pageDescription = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+  {% endif %}
+
+  {% if page.image %}
+    {% assign pageImage = page.image %}
+  {% endif %}
+
+  <title>{{ pageTitle }} - {{ site.title }}</title>
+  <meta name="description" content="{{ pageDescription }}">
+
+  <meta property="og:locale" content="es_BO">
+	<meta property="og:type" content="{{ pageType }}">
+	<meta property="og:title" content="{{ pageTitle }}">
+	<meta property="og:description" content="{{ pageDescription }}">
+	<meta property="og:url" content="{{ pageUrl }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+	<meta property="og:image" content="{{ pageImage }}">
+	<meta property="og:publisher" content="https://www.facebook.com/GDGCochabamba">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@GDGCochabamba">
+	<meta name="twitter:title" content="{{ pageTitle }}">
+	<meta name="twitter:description" content="{{ pageDescription }}">
+	<meta name="twitter:image" content="{{ pageImage }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ pageUrl }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
