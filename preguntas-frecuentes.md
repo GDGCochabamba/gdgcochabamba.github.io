@@ -9,7 +9,7 @@ permalink: /preguntas-frecuentes/
 Existen muchas personas que han oído de Google Developers Group Cochabamba (GDG Cochabamba) o Women Techmakers Cochabamba (WTM Cochabamba) y casi siempre tienen las mismas dudas, esperamos poder resolverlas en esta área.
 
 ## ¿Qué tipo de actividades realizan?
-Workshops, Codelabs, Meetups, Streaming, etc .... sobre diseño y desarrollo para web o móvil utilizando las herramientas/productos de Google, aunque no es prioritario desde un tiempo que solo sean de Google.
+Workshops, Codelabs, Meetups, Streaming, etc .... sobre diseño, desarrollo, marketing y emprendimiento las herramientas/productos de Google, aunque no es prioritario desde un tiempo que solo sean de Google.
 Tambien estamos conformando equipos para crear proyectos sobre desarrollo dentro de los grupos, puedes ver mas en [GDG/WTM Cochabamba en Github](https://github.com/GDGCochabamba)
 
 ## ¿Tienen otras actividades extra?
