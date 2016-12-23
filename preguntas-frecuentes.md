@@ -31,7 +31,11 @@ La mayoria los sabados pero anunciamos nuestros eventos por [Facebook](https://w
 Empresas, universidades, una casa, en internet (HO, Skype, JoinMe, etc).
 
 ## ¿Como puedo ser parte activa de cualquiera de los grupos, ayudar en la organización o dar una charla?
-Manda un mensaje privado a cualquiera de los organizadores oficiales.
+Manda un mensaje privado a:
+- [Facebook WTM Cochabamba](https://www.facebook.com/WomenTechmakersCochabamba/)
+- [Facebook GDG Cochabamba](https://www.facebook.com/GDGCochabamba/)
+
+O un email a cualquiera de los organizadores oficiales.
 - Luz Maria Maida [lu.maidacl@gmail.com](mailto:lu.maidacl@gmail.com)
 - Carlos Collazos [carlosccb@gmail.com](mailto:carlosccb@gmail.com)
 - Yury Camacho [camachoyury@gmail.com](mailto:camachoyury@gmail.com)
